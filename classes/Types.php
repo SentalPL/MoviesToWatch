@@ -29,6 +29,9 @@ class TypesClass extends Library{
 	public function get_type($id){
 		$this->query("SELECT * FROM types WHERE id = $id");
 		$type = $this->resultSet();
+		if (empty($type)){
+			return false;
+		}
 		$this->id = $type[0]['id'];
 		$this->name = $type[0]['name'];
 		return array('id'=>$this->id, 'name'=>$this->name);

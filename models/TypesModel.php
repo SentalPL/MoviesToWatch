@@ -65,6 +65,10 @@ class TypesModel extends TypesClass{
 		}
 		
 		$type = TypesClass::get_type($id);
+		if ($type === false){
+			header('Location: '.ROOT_URL);
+			exit();
+		}
 		$movies_count = count(Library::get_all_movies($type['name']));
 		return array ($type, $movies_count);
 	}
