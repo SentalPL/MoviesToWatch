@@ -1,0 +1,81 @@
+body .container{
+	.p_info{
+		color: green;
+	}
+	.e_info{
+		color: red;
+	}
+	.header{
+		text-align: center;
+		border-bottom: 1px solid black;
+		margin-bottom: 1%;
+	}
+	.main{
+		a.action{
+			color: green;
+			margin-left: 4%;
+			float: right;
+		}
+		h2{
+			font-size: 1.4em;
+		}
+		.categories{
+			margin-bottom: 1%;
+			input{
+				margin-right: 2%;
+			}
+		}
+		a{
+			font-size: 1.4em;
+		}
+		iframe{
+			width: 40%;
+			height: 40vh;
+		}
+	}
+	.random{
+		background: LightGrey;
+		padding: 1% 0;
+		text-align: center;
+	}
+	.view{
+		iframe{
+			width: 90%;
+			height: 50vh;
+		}
+		form{
+			max-width: 20%;
+			display: flex;
+			flex-flow: row;
+			input{
+				margin: 1% 2%;
+			}
+		}
+		h3{
+			margin: 2% 0 1% 0;
+		}
+		a{
+			font-size: 1.2em;
+			margin-bottom: 1%;
+		}
+	}
+	.edit{
+		form{
+			input, select{
+				width: 30%;
+				margin-bottom: 1%;
+			}
+		}
+	}
+	.typesEdit{
+		
+	}
+	.history{
+		form{
+			margin: 1% 0 2% 0;
+			input{
+				margin-right: 2%;
+			}
+		}
+	}
+}

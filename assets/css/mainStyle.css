@@ -1,0 +1,50 @@
+body .container .p_info {
+  color: green; }
+body .container .e_info {
+  color: red; }
+body .container .header {
+  text-align: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 1%; }
+body .container .main a.action {
+  color: green;
+  margin-left: 4%;
+  float: right; }
+body .container .main h2 {
+  font-size: 1.4em; }
+body .container .main .categories {
+  margin-bottom: 1%; }
+  body .container .main .categories input {
+    margin-right: 2%; }
+body .container .main a {
+  font-size: 1.4em; }
+body .container .main iframe {
+  width: 40%;
+  height: 40vh; }
+body .container .random {
+  background: LightGrey;
+  padding: 1% 0;
+  text-align: center; }
+body .container .view iframe {
+  width: 90%;
+  height: 50vh; }
+body .container .view form {
+  max-width: 20%;
+  display: flex;
+  flex-flow: row; }
+  body .container .view form input {
+    margin: 1% 2%; }
+body .container .view h3 {
+  margin: 2% 0 1% 0; }
+body .container .view a {
+  font-size: 1.2em;
+  margin-bottom: 1%; }
+body .container .edit form input, body .container .edit form select {
+  width: 30%;
+  margin-bottom: 1%; }
+body .container .history form {
+  margin: 1% 0 2% 0; }
+  body .container .history form input {
+    margin-right: 2%; }
+
+/*# sourceMappingURL=mainStyle.css.map */
